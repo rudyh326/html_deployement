@@ -12,14 +12,21 @@
           margin-top: 20px;
           margin-bottom: 20px;
           margin-left: 10px;
+          padding-right: 500px;
+        }
+        .btn-primary:hover{
+            background-color: grey !important;
+        }
+        .btn-secondary:hover{
+            background-color: blue !important;
         }
     </style>
 </head>
 <body>
     <h1 id="a">Hello, Start Learning!</h1>
     <div class="input-group ex1">
-        <input  id="myText" type="text" placeholder="Show alert.." name="search" size="40">
-        <button id="myIcon" type="submit" onclick="alert(document.getElementById('myText').value)"><i class="fa fa-search"></i></button>
+        <input  id="myText" type="text" class="form-control" placeholder="Show alert.." name="search" size="40">
+        <button id="myIcon" type="submit" class="btn btn-secondary" onclick="alert(document.getElementById('myText').value)"><i class="fa fa-search"></i></button>
     </div>
     <div id="b" class="card" if="card-python-for-beginners">
         <div id="c" class="card-header">
