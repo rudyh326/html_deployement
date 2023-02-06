@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My  Courses</title>
+    <style>
+        div.ex1 {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1 id="a">Hello, Start Learning!</h1>
+    <div class="input-group ex1">
+        <input type="text" placeholder="Show alert.." id="myText" name="search" size="40">
+        <button type="submit" onclick="alert(document.getElementById('myText').value)"><i class="fa fa-search"></i></button>
+    </div>
     <div id="b" class="card" if="card-python-for-beginners">
         <div id="c" class="card-header">
             Python
